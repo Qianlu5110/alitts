@@ -1,0 +1,109 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "P1gBptb8w5poiiD5FBJSylxASiw=",
+			"path": "github.com/aliyun/alibaba-cloud-sdk-go/sdk",
+			"revision": "44ff19b8cdcbec6415f63fae33ddda88093fb577",
+			"revisionTime": "2019-09-09T09:15:52Z"
+		},
+		{
+			"checksumSHA1": "qtkwdNSSgiEIA9H+GRERDE+XaqU=",
+			"path": "github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth",
+			"revision": "44ff19b8cdcbec6415f63fae33ddda88093fb577",
+			"revisionTime": "2019-09-09T09:15:52Z"
+		},
+		{
+			"checksumSHA1": "1gTnef/Hv+0CXydzIg5Ff8+ct2s=",
+			"path": "github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth/credentials",
+			"revision": "44ff19b8cdcbec6415f63fae33ddda88093fb577",
+			"revisionTime": "2019-09-09T09:15:52Z"
+		},
+		{
+			"checksumSHA1": "5ID2ZeMg+r9AAsSt6jtYUplLv2g=",
+			"path": "github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth/credentials/provider",
+			"revision": "44ff19b8cdcbec6415f63fae33ddda88093fb577",
+			"revisionTime": "2019-09-09T09:15:52Z"
+		},
+		{
+			"checksumSHA1": "Yj/CkKJgDgBEs8Xjc2yxT3PLX/o=",
+			"path": "github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth/signers",
+			"revision": "44ff19b8cdcbec6415f63fae33ddda88093fb577",
+			"revisionTime": "2019-09-09T09:15:52Z"
+		},
+		{
+			"checksumSHA1": "bG/ZYWviro2Gy9E6CqBm4WDqN6U=",
+			"path": "github.com/aliyun/alibaba-cloud-sdk-go/sdk/endpoints",
+			"revision": "44ff19b8cdcbec6415f63fae33ddda88093fb577",
+			"revisionTime": "2019-09-09T09:15:52Z"
+		},
+		{
+			"checksumSHA1": "+RBNlxd8d5qwjKxFUWAB9IdOmQA=",
+			"path": "github.com/aliyun/alibaba-cloud-sdk-go/sdk/errors",
+			"revision": "44ff19b8cdcbec6415f63fae33ddda88093fb577",
+			"revisionTime": "2019-09-09T09:15:52Z"
+		},
+		{
+			"checksumSHA1": "IOuHQi/mTNyTKq8G1wqjsuYM4a4=",
+			"path": "github.com/aliyun/alibaba-cloud-sdk-go/sdk/requests",
+			"revision": "44ff19b8cdcbec6415f63fae33ddda88093fb577",
+			"revisionTime": "2019-09-09T09:15:52Z"
+		},
+		{
+			"checksumSHA1": "GEyGCeVgk6Y85gg0MtpBYNvo9OY=",
+			"path": "github.com/aliyun/alibaba-cloud-sdk-go/sdk/responses",
+			"revision": "44ff19b8cdcbec6415f63fae33ddda88093fb577",
+			"revisionTime": "2019-09-09T09:15:52Z"
+		},
+		{
+			"checksumSHA1": "bFbB3n5fHnpod2tORVl9eRFM92o=",
+			"path": "github.com/aliyun/alibaba-cloud-sdk-go/sdk/utils",
+			"revision": "44ff19b8cdcbec6415f63fae33ddda88093fb577",
+			"revisionTime": "2019-09-09T09:15:52Z"
+		},
+		{
+			"checksumSHA1": "JRWONU/XtfbDYF2PmSZtnmrGFnQ=",
+			"origin": "github.com/aliyun/alibaba-cloud-sdk-go/vendor/github.com/jmespath/go-jmespath",
+			"path": "github.com/jmespath/go-jmespath",
+			"revision": "44ff19b8cdcbec6415f63fae33ddda88093fb577",
+			"revisionTime": "2019-09-09T09:15:52Z"
+		},
+		{
+			"checksumSHA1": "JXlC3eSy7kLsz93aVdKGKtfBSj0=",
+			"origin": "github.com/aliyun/alibaba-cloud-sdk-go/vendor/github.com/json-iterator/go",
+			"path": "github.com/json-iterator/go",
+			"revision": "44ff19b8cdcbec6415f63fae33ddda88093fb577",
+			"revisionTime": "2019-09-09T09:15:52Z"
+		},
+		{
+			"checksumSHA1": "R7UwDjqiaLRoaEanrANwPOfbgN4=",
+			"origin": "github.com/aliyun/alibaba-cloud-sdk-go/vendor/github.com/modern-go/concurrent",
+			"path": "github.com/modern-go/concurrent",
+			"revision": "44ff19b8cdcbec6415f63fae33ddda88093fb577",
+			"revisionTime": "2019-09-09T09:15:52Z"
+		},
+		{
+			"checksumSHA1": "NjjmAMSs1L2If1DsHiMS6cSkInI=",
+			"origin": "github.com/aliyun/alibaba-cloud-sdk-go/vendor/github.com/modern-go/reflect2",
+			"path": "github.com/modern-go/reflect2",
+			"revision": "44ff19b8cdcbec6415f63fae33ddda88093fb577",
+			"revisionTime": "2019-09-09T09:15:52Z"
+		},
+		{
+			"checksumSHA1": "U/uN4dAtDP677/ZbyKKoEZztzvA=",
+			"origin": "github.com/aliyun/alibaba-cloud-sdk-go/vendor/github.com/satori/go.uuid",
+			"path": "github.com/satori/go.uuid",
+			"revision": "2068b0b119667a1d2a4d0dbd49dd635ceb32cfe9",
+			"revisionTime": "2018-11-12T09:20:22Z"
+		},
+		{
+			"checksumSHA1": "DhW0lXKlcLrcgMJP30k/k4wdueg=",
+			"origin": "github.com/aliyun/alibaba-cloud-sdk-go/vendor/gopkg.in/ini.v1",
+			"path": "gopkg.in/ini.v1",
+			"revision": "44ff19b8cdcbec6415f63fae33ddda88093fb577",
+			"revisionTime": "2019-09-09T09:15:52Z"
+		}
+	],
+	"rootPath": "alitts"
+}
