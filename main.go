@@ -14,7 +14,7 @@ import (
 	"strconv"
 )
 
-const AppVersion = "1.0.0 release"
+const AppVersion = "1.0.1 release"
 
 var dir string
 var voice string
@@ -27,11 +27,24 @@ func main() {
 	version := flag.Bool("v", false, "show program version")
 
 	// 获取执行参数
-	flag.StringVar(&dir, "d", "", "Windows default dir C:/work/tts/ \t Linux default dir /home/devops/tts/")
-	flag.IntVar(&sample, "s", 8000, "tts sample \t default 8000")
-	flag.StringVar(&voice, "voice", "Siyue", "tts voice \t default Siyue")
-	flag.StringVar(&format, "format", "wav", "tts file type [wav or mp3] \t default wav")
-	flag.StringVar(&txt, "txt", "您好", "tts content waiting to compose \t default to compose \"您好\"")
+	flag.StringVar(&dir, "d", "",
+		"Windows default dir C:/work/tts/ \n"+
+			"Linux default dir /home/devops/tts/")
+	flag.IntVar(&sample, "s", 8000,
+		"tts sample, values:[8000,16000,24000] not all voice support 24000\n"+
+			"default 8000")
+	flag.StringVar(&voice, "voice", "Siyue",
+		"ali tts voice, you can choose Xiaoyun,Xiaogang,Xiaomeng,Xiaowei,Ruoxi, \n"+
+			"Siqi,Sijia,Sicheng,Aiqi,Aijia,Aicheng,Aida,Ninger,Ruilin,Amei,Xiaoxue, \n"+
+			"Siyue,Aiya,Aixia,Aimei,Aiyu,Aiyue,Aijing,Xiaomei,Yina,Sijing,Sitong,Xiaobei, \n"+
+			"Aitong,Aiwei,Aibao,Halen,Harry,Eric,Emily,Luna,Luca,Wendy,William,Olivia,Shanshan \n"+
+			"default Siyue")
+	flag.StringVar(&format, "format", "wav",
+		"tts file type [wav or mp3] \n"+
+			"default wav")
+	flag.StringVar(&txt, "txt", "您好",
+		"tts content waiting to compose \n"+
+			"default to compose \"您好\"")
 	flag.Parse()
 
 	flag.Parse()
