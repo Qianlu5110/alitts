@@ -7,6 +7,6 @@
 package main
 
 //个人
-var AccessKeyId = "LTAIkjtTWEge9iL9"
-var AccessKeySecret = "zvYRBOSQaShLheXV4tngG2uEldXmXO"
-var AppKey = "J52lJFiOE8wFFLEQ"
+var AccessKeyId = ""
+var AccessKeySecret = ""
+var AppKey = ""
